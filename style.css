@@ -15,6 +15,26 @@ body {
     font-family: 'Chakra Petch', sans-serif;
 }
 
+header{
+text-align: center;
+color:var(--branco);
+display: flex;
+justify-content:space-between;
+padding: 16px 0 ;
+align-items: center;
+font-size: larger;
+}
+
+.logo{
+    width:15%;
+    margin: 0 16px;
+}
+
+.tutora{
+    font-size:25px;
+    color: var(--verde); 
+}
+
 .conteudo-principal {
     display: flex;
     flex-direction: column;
